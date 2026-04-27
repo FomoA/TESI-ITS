@@ -1,0 +1,20 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:CaricaPremi xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:pack.rmaVisPortafoglio_typedef.salt11">
+         <urn:inbuf>
+            <urn:request>
+               <urn:requestHeader>
+                  <urn:chrUserid>INTERNET</urn:chrUserid>
+                  <urn:chrCodiceServizio>VI0WS024</urn:chrCodiceServizio>
+                  <urn:chrCodiceCompagnia>1</urn:chrCodiceCompagnia>
+                  <urn:chrCodiceAgenzia>905</urn:chrCodiceAgenzia>
+                  <urn:chrCodiceSubAgenzia/>
+                  <urn:chrCodiceArea/>
+                  <urn:chrFiller/>
+               </urn:requestHeader>
+               <urn:request24>
+                  <urn:Polizza>
+                     <urn:intNumero>13101426</urn:intNumero>
+                  </urn:Polizza>
+               </urn:request24>
+            </urn:request>
+         </urn:inbuf>
+      </urn:CaricaPremi></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,66 @@
+wikitest wikitest
+Navigazione
+Home
+Ambienti
+Calendari Rilasci
+Certificazione Release Evolutiva
+Certificazione Progetti
+Test Regressione
+Misurazione Efficienza (KPI)
+Cerca all'interno di wikitest
+ Ricerca
+Puntano qui
+Modifiche correlate
+Pagine speciali
+Versione stampabile
+Link permanente
+Informazioni pagina
+Ultime modifiche
+Aiuto
+Entra
+ Azioni
+API SL
+Da wikitest.
+Monitor API BSA & BFF
+Dashboard Grafana di PREP
+Dashboard Grafana di STR2
+Dashboard Grafana di SYSR2P
+Dashboard Grafana di ITR1
+Dashboard Grafana di ITR2
+Ambienti di test
+Nella tabella seguente sono elencati i collegamenti alle API (attraverso intefaccia Swagger) nei vari ambienti di test.
+
+
+
+Swagger è un linguaggio di descrizione dell'interfaccia per descrivere le API RESTful espresse utilizzando JSON.
+
+
+L'infrastruttura è così strutturata:
+
+in test c’è un una macchina in green zone ed una in DMZ (no vip quindi) e occorre chiamare direttamente il server http://ls001s01-00-api.rmasede.grma.net:8888
+in prep (3 nodi in DMZ)
+esiste un vip raggiungibile da dentro nostra intranet https://vipprep-apiext.rmasede.grma.net/gateway (certificato selSigned)
+l’indirizzo ufficiale da Internet é https://api-gateway-pre.grupporealemutua.it/gateway (certificato rilasciato da CA ufficiale, GlobalSign)
+I servizi BSA (Business Sidecar for Api) e BFF (Backend for Frontend) ad oggi configurati (settembre 2022) sono:
+
+Nome	PREP	STR2	STR2P	ITR1	ITR2
+BSA Anagrafe	sì	sì	sì	sì	sì
+BSA Auto	sì	sì	sì	sì	sì
+BSA Contabilita'	sì	sì	sì	sì	sì
+BSA DanniNonAuto	sì	sì	sì	sì	sì
+BSA Documentale	sì	sì	sì	sì	sì
+BSA DominiApplicativi	sì	sì	sì	sì	sì
+BSA GestioneCliente	sì	sì	sì	sì	sì
+BSA Pagamenti	sì	sì	sì	sì	sì
+BSA Portafoglio	sì	sì	sì	sì	sì
+BSA Questionario Adeguatezza	sì	sì	sì	no	sì
+BSA ReteVendita	sì	sì	sì	sì	sì
+BSA ServiziComuni	sì	sì	sì	sì	sì
+BSA Vita	sì	sì	sì	sì	sì
+BFF Contabilita	sì	sì	sì	sì	sì
+BFF Sinistri	sì	sì	sì	sì	sì
+Questa pagina è stata modificata per l'ultima volta il 22 mag 2023 alle 16:14.
+Informativa sulla privacy
+Informazioni su wikitest
+Avvertenze
+Powered by MediaWiki
